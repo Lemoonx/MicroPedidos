@@ -32,5 +32,9 @@ public class pedido {
     @Column(name = "VALOR_TOTAL",nullable= false , precision = 10, scale=2)
     private Long VALOR_TOTAL;
 
+    @Column(name = "ID_USUARIO",nullable= false , precision = 10)
+    private Long ID_USUARIO;
+
+
 }
 
